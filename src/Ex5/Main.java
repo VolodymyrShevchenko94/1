@@ -10,9 +10,10 @@ public class Main {
         teachers.add("Elena Nikolaevna");
         teachers.add("Nikolay Vasilievich");
         teachers.add("Luibov Vladimirovna");
-        System.out.println("Лучший учитель : " + teachers.get(2));
-        System.out.println("Худший учитель : " + teachers.get(4));
-        System.out.println(teachers);
+
+        System.out.println("Best teacher : " + teachers.indexOf("Elena Nikolaevna"));
+        System.out.println("Worst teacher : " + teachers.indexOf("Galina Ivanovna"));
+
 
     }
 }
