@@ -19,15 +19,19 @@ public class Main {
         myNumbers.add(90);
 
 
-            ListIterator<Integer> iterator = myNumbers.listIterator();
-            while (iterator.hasNext()){
-                System.out.println(iterator.next() + 1);
 
-                }
+        ListIterator<Integer> it =  myNumbers.listIterator();
+
+        while(it.hasNext()){
+            it.set(it.next()+1);
+        }
+        for(Integer value: myNumbers)  {
+            System.out.println(value);
+        }
 
 
 
-                }
+    }
 
 
 

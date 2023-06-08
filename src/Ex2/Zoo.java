@@ -11,6 +11,7 @@ public class Zoo {
     }
 
     public void removeAnimal(int index) {
+
         zoo.remove(index);
     }
 
